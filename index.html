@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Advice generator app</title>
+
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,14 +20,21 @@
   </style>
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <main>
+  <div class="advice-container">
+    <h1 id="advice-number">ADVICE #1</h1>
+    <p id="advice-text">“Remember that spiders are more afraid of you, than you are of them.”</p>
+    <img src="images/pattern-divider-desktop.svg" alt="two small vertical lines in the middle with two large horizontal lines on either side" aria-hidden="true">
+      <button id="playButton">
+        <img src="images/icon-dice.svg" alt="a dice icon" aria-hidden="true">
+      </button>
   </div>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="github.com/pmork7">Paul Mork</a>.
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
