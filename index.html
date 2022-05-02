@@ -34,6 +34,13 @@
     Coded by <a href="github.com/pmork7">Paul Mork</a>.
   </div>
   <script src="script.js"></script>
+  <script type="module">
+    import {getCLS, getFID, getLCP} from 'https://unpkg.com/web-vitals?module';
+
+    getCLS(console.log);
+    getFID(console.log);
+    getLCP(console.log);
+  </script>
   </main>
 </body>
 </html>
